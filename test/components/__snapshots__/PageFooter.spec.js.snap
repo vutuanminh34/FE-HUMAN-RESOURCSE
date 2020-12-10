@@ -1,0 +1,6 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageFooter.vue should have a custom title and match snapshot 1`] = `
+"<footer class=\\"v-footer white pa-3 app--footer v-sheet theme--light\\"><span class=\\"caption\\">Hybrid Technologies © 2020</span>
+  <div class=\\"spacer\\"></div> <i aria-hidden=\\"true\\" class=\\"v-icon notranslate mdi mdi-heart theme--light pink--text\\" style=\\"font-size: 16px;\\"></i></footer>"
+`;

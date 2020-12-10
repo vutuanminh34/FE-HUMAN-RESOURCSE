@@ -1,0 +1,12 @@
+version: '3'
+services:
+  admin:
+    container_name: 'human_resource_cms'
+    hostname: 'human_resource_cms'
+    image: 'huynhdn/human_resource_cms:1.0'
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80

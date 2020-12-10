@@ -1,0 +1,42 @@
+{
+    "name": "frontend-human-resource",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+        "fixlint": "eslint --ext .js,.vue --ignore-path .gitignore . --fix",
+        "lint": "npm run lint:js",
+        "test:watch": "jest --watch",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@nuxtjs/pwa": "^3.0.2",
+        "axios": "^0.21.0",
+        "core-js": "^3.6.5",
+        "js-cookie": "^2.2.1",
+        "moment": "^2.29.1",
+        "nuxt": "^2.14.6",
+        "vue-html2pdf": "^1.8.0"
+    },
+    "devDependencies": {
+        "@nuxtjs/dotenv": "^1.4.1",
+        "@nuxtjs/eslint-config": "^3.1.0",
+        "@nuxtjs/eslint-module": "^2.0.0",
+        "@nuxtjs/vuetify": "^1.11.2",
+        "@vue/test-utils": "^1.1.0",
+        "babel-core": "7.0.0-bridge.0",
+        "babel-eslint": "^10.1.0",
+        "babel-jest": "^26.5.0",
+        "eslint": "^7.10.0",
+        "eslint-config-prettier": "^6.12.0",
+        "eslint-plugin-nuxt": "^1.0.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "prettier": "^2.1.2",
+        "jest": "^26.5.0",
+        "vue-jest": "^3.0.4"
+    }
+}
